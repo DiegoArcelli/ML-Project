@@ -2,4 +2,4 @@ env/
 venv/
 .ipynb_checkpoints
 src/.ipynb_checkpoints
-tests/
+src/logs
