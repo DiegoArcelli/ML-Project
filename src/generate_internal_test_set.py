@@ -12,7 +12,7 @@ print("Full train set shape: ", x_train.shape)
 print("Blind test shape: ", x_test_blind.shape)
 
 
-int_test = train.sample(frac=0.1, random_state=42)
+int_test = train.sample(frac=0.2, random_state=42)
 int_train = train.drop(int_test.index)
 
 
